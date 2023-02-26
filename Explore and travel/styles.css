@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Mulish:wght@300;400;700&family=Playfair+Display:wght@700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+.wrapper{
+   max-width: 1600px;
+   margin: 0 auto;
+}
+
+
+/* navigation styles */
+.nav { 
+    display: flex;
+    margin-top: 34px;
+    margin-left: 191px;
+    font-family: Inter;
+}
+
+.logo {
+    width: 41px;
+    height: 41px;
+    margin-right: 515px;
+}
+
+
+.nav-item {
+    display: inline-block;
+    margin-right: 34px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color:#B8BECD;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.nav-item a.active {
+    font-weight: 500;
+}
+
+.nav-item a.active, .nav-item a:hover {
+    color: #202336;
+}
+
+
+.btn-login, .btn-register {
+    width: 132px;
+    height: 44px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.btn-login {
+    background-color: #ffffff;
+    border: 1px solid #FB8F1D;
+    margin-right: 18px;
+    color: #FB8F1D;
+}
+
+
+.btn-register, .btn-login:hover {
+    border: none;
+    background-color: #FB8F1D;
+    color: #FFFFFF;
+}
+
+.btn-register:hover {
+    background-color: #ffffff;
+    border: 1px solid #FB8F1D;
+    color: #FB8F1D;
+}
+
+
+
+
+
+
+
+
+
+
+
