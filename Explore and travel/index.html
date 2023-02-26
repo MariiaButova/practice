@@ -19,38 +19,49 @@
             <li class="nav-item"><a href="#">About</a></li>
             <li class="nav-item"><a href="#">Partner</a></li>
         </ul>
-        <!-- Header buttons -->
+        <!-- navigation buttons -->
         <button onclick="myFunction()" class="btn-login">Login</button>
         <button onclick="myFunction()" class="btn-register">Register</button>
     </nav>
      <!-- Header -->
    <header>
+    <div class="header-content">
         <h1>Explore and Travel</h1>
-        <p>Holiday finder</p>
         <!-- Form -->
-        <form>
-            <label for="location"></label>
-            <select id="location" name="location">
-                <option>Location</option>
-                <option>Lutsk</option>
-            </select>
-            <label for="activity"></label>
-            <select id="activity" name="activity">
-                <option>Activity</option>
-            </select>
-            <label for="grade"></label>
-            <select id="grade" name="grade">
-                <option>Grade</option>
-            </select>
-            <label for="date"></label>
-            <select id="date" name="date">
-                <option>Date</option>
-            </select>
-            <input type="submit" value="Explore">
+        <form action="#" class="holiday-finder">
+            <fieldset class="criteria">
+                <legend class="form-caption">Holiday finder</legend>
+                <label for="location"></label>
+                <select id="location" name="location" class="form-item">
+                    <option value="location">Location</option>
+                    <option value="china">China</option>
+                    <option value="indonesia">Indonesia</option>
+                    <option value="switzerland">Switzerland</option>
+                    <option value="montenegro">Montenegro</option>
+                </select>
+                <label for="activity"></label>
+                <select id="activity" name="activity" class="form-item">
+                    <option value="activity">Activity</option>
+                    <option value="yoga">Yoga</option>
+                    <option value="diving">Diving</option>
+                    <option value="climbing">Climbing</option>
+                    <option value="surfing">Surfing</option>
+                </select>
+                <label for="grade"></label>
+                <select id="grade" name="grade" class="form-item"> 
+                    <option value="grade">Grade</option>
+                </select>
+                <label for="date"></label>
+                <select id="date" name="date" class="form-item">            
+                    <option value="date">Date</option>
+                </select>
+            </fieldset>
+            <input type="submit" value="Explore" class="btn-explore">
         </form>
+    </div>
         <!-- Form image -->
-        <figure>
-            <img src="img/form-img.png" alt="traveling-man">
+        <figure class="header-form-img">
+            <img src="img/form-img.png" alt="traveling-man" class="form-img">
         </figure>
    </header>
    <!-- Main -->
