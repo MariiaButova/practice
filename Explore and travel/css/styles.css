@@ -88,9 +88,6 @@ header {
     gap: 147px;
 }
 
-.header-content {
-    
-}
 
 .header-content h1 {
     max-width: 356px;
@@ -102,10 +99,6 @@ header {
 }
 
 /* Form styles */
-
-form.holiday-finder {
-    
-}
 
 fieldset, legend {
     border: none;
@@ -137,9 +130,6 @@ fieldset, legend {
     color: #4A4C53;
 }
 
-
-
-
 select.form-item:nth-of-type(odd) {
     margin-right: 30px;
 }
@@ -163,18 +153,82 @@ select.form-item:nth-of-type(odd) {
 
 /* header image styles*/
 
-.header-form-img {
-}
-
 .form-img {
     width: 687px;
     height: 654px; 
 }
 
+/* destinition section styles */
 
+.destinations {
+    margin-left: 240px;
+}
 
+.section-title {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    display: inline-block;
+    margin-right: 680px;
+}
 
+.view-all {
+    text-decoration: none;
+    color:#FB8F1D;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+}
 
+.arrow-right {
+    margin-left: 11px;
+}
+
+.view-all:hover {
+    text-decoration: underline;
+}
+
+/* figures styles */
+
+figure {
+    margin: 0;
+}
+
+.destination-examples {
+    display: flex;
+    gap: 25px;
+}
+
+.destination {
+    position: relative;
+}
+
+.destination-img {
+    width: 261px;
+    height: 332px;
+    border-radius: 8px;
+}
+
+.destination-name {
+    width: 120px;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 0px 6px 0px 0px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.destination-name-country {
+    font-weight: 500;
+    color: #80918E;
+}
 
 
 

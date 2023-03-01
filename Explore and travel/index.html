@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <script src="https://kit.fontawesome.com/8646600bda.js" crossorigin="anonymous"></script>
     <title>Explore and travel</title>
 </head>
@@ -73,7 +73,7 @@
         </figure>
         <!-- Article content-->
         <section class="article-content">
-            <h2>A new way to explore the world</h2>
+            <h3 class="section-title">A new way to explore the world</h3>
             <p>For decades travellers have reached for Lonely Planet books when looking to plan and execute their perfect trip, but now, they can also let Lonely Planet Experiences lead the way</p>
         <!-- Button lead more-->
             <button onclick="myFunction()" class="btn-learn-more">Learn more</button>
@@ -81,29 +81,30 @@
     </article>
     <!-- Section recomendation destinations -->
     <section class="destinations">
-        <h3>Featured destinations</h3>
-        <a href="#" class="view-all">View all<img src="img/arrow-right.jpg" alt="arrow right"></a>
-        <!-- Figures -->
-        <figure>
-            <img src="img/raja-ampet.png" alt="Raja Ampat">
-            <figcaption>Raja Ampat Indonesia</figcaption>
-        </figure>
-        <figure>
-            <img src="img/china.png" alt="Fanjingshan China">
-            <figcaption>Fanjingshan China</figcaption>
-        </figure>
-        <figure>
-            <img src="img/switzerland.png" alt="Vevey Switzerland">
-            <figcaption>Vevey Switzerland</figcaption>
-        </figure>
-        <figure>
-            <img src="img/mantenegro.png" alt="Skadar Montenegro">
-            <figcaption>Skadar Montenegro</figcaption>
-        </figure>
+        <h3 class="section-title">Featured destinations</h3>
+        <a href="#" class="view-all">View all<i class="fa-solid fa-angle-right arrow-right"></i></a>
+        <section class="destination-examples">
+            <figure class="destination">
+                <img src="img/raja-ampet.png" alt="Raja Ampat" class="destination-img">
+                <figcaption class="destination-name">Raja Ampat <span class="destination-name-country">Indonesia</span></figcaption>
+            </figure>
+            <figure class="destination">
+                <img src="img/china.png" alt="Fanjingshan China" class="destination-img">
+                <figcaption class="destination-name">Fanjingshan <span class="destination-name-country">China</span></figcaption>
+            </figure>
+            <figure class="destination">
+                <img src="img/switzerland.png" alt="Vevey Switzerland" class="destination-img">
+                <figcaption class="destination-name">Vevey <span class="destination-name-country">Switzerland</span></figcaption>
+            </figure>
+            <figure class="destination">
+                <img src="img/mantenegro.png" alt="Skadar Montenegro" class="destination-img">
+                <figcaption class="destination-name">Skadar <span class="destination-name-country">Montenegro</span></figcaption>
+            </figure>
+        </section>
     </section>
     <!-- Article guides -->
     <article>
-        <h3>Guides by Thousand Sunny</h3>
+        <h3 class="section-title">Guides by Thousand Sunny</h3>
         <p>Packed with tips and advice from our on-the-ground experts, our city guides app (iOS and Android) is the ultimate resource before and during a trip.</p>
         <button onclick="myFunction()" class="download">Download</button>
         <figure>
@@ -112,7 +113,7 @@
     </article>
     <!-- Section testimonials-->
     <section class="testimonial">
-        <h3>Testimonials</h3>
+        <h3 class="section-title">Testimonials</h3>
         <figure>
             <img src="img/star.jpg" alt="star">
             <img src="img/star.jpg" alt="star">
@@ -126,7 +127,7 @@
     </section>
     <!-- Section trending stories -->
     <section>
-        <h3>Trending stories</h3>
+        <h3 class="section-title">Trending stories</h3>
         <a href="#" class="view-all">View all<img src="img/arrow-right.jpg" alt="arrow right"></a>
         <!-- Article healing -->
         <article>
