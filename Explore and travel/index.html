@@ -21,7 +21,7 @@
         </ul>
         <!-- navigation buttons -->
         <button onclick="myFunction()" class="btn-login">Login</button>
-        <button onclick="myFunction()" class="btn-register">Register</button>
+        <button onclick="myFunction()" class="btn-register btn-orange">Register</button>
     </nav>
      <!-- Header -->
    <header>
@@ -56,7 +56,7 @@
                     <option value="date">Date</option>
                 </select>
             </fieldset>
-            <input type="submit" value="Explore" class="btn-explore">
+            <input type="submit" value="Explore" class="btn-explore btn-orange">
         </form>
     </div>
         <!-- Form image -->
@@ -76,7 +76,7 @@
             <h3 class="section-title">A new way to explore the world</h3>
             <p class="section-text">For decades travellers have reached for Lonely Planet books when looking to plan and execute their perfect trip, but now, they can also let Lonely Planet Experiences lead the way</p>
         <!-- Button lead more-->
-            <button onclick="myFunction()" class="btn-learn-more">Learn more</button>
+            <button onclick="myFunction()" class="btn-learn-more btn-orange">Learn more</button>
         </section>
     </article>
     <!-- Section recomendation destinations -->
@@ -103,32 +103,45 @@
         </section>
     </section>
     <!-- Article guides -->
-    <article>
+    <article class="guides">
+        <section class="article-content">
         <h3 class="section-title">Guides by Thousand Sunny</h3>
-        <p>Packed with tips and advice from our on-the-ground experts, our city guides app (iOS and Android) is the ultimate resource before and during a trip.</p>
-        <button onclick="myFunction()" class="download">Download</button>
+        <p class="section-text">Packed with tips and advice from our on-the-ground experts, our city guides app (iOS and Android) is the ultimate resource before and during a trip.</p>
+        <button onclick="myFunction()" class="btn-download btn-orange">Download</button>
+        </section>
         <figure>
-            <img src="img/guide-img.png" alt="man with telephone"> 
+            <img src="img/guide-img.png" alt="man with telephone" class="guide-img"> 
         </figure>
     </article>
     <!-- Section testimonials-->
     <section class="testimonial">
         <h3 class="section-title">Testimonials</h3>
-        <figure>
-            <img src="img/star.jpg" alt="star">
-            <img src="img/star.jpg" alt="star">
-            <img src="img/star.jpg" alt="star">
-            <img src="img/star.jpg" alt="star">
-            <img src="img/star.jpg" alt="star">
-        </figure>
-        <p>&#8220;Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec&#8221;</p>
-        <p>Edward Newgate</p>
-        <p>Founder Circle</p>
+        <section class="section-content">
+            <div class="section-content-text">
+                <figure class="stars">
+                    <img src="img/star.jpg" alt="star">
+                    <img src="img/star.jpg" alt="star">
+                    <img src="img/star.jpg" alt="star">
+                    <img src="img/star.jpg" alt="star">
+                    <img src="img/star.jpg" alt="star">
+                </figure>
+                <p class="comment">&#8220;Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec&#8221;</p>
+                <p class="commentator">Edward Newgate</p>
+                <p class="commentator-work">Founder Circle</p>
+            </div>
+            <div class="commentator-photo">
+                <figure>
+                    <img src="img/man.png" alt="man" class="photo-man">
+                </figure>
+                <div class="switch-arrow">
+                </div>
+            </div>
+        </section>
     </section>
     <!-- Section trending stories -->
     <section>
         <h3 class="section-title">Trending stories</h3>
-        <a href="#" class="view-all">View all<img src="img/arrow-right.jpg" alt="arrow right"></a>
+        <a href="#" class="view-all">View all<i class="fa-solid fa-angle-right arrow-right"></i></a>
         <!-- Article healing -->
         <article>
             <figure>
@@ -176,13 +189,13 @@
         <p>©2020 Thousand Sunny. All rights reserved</p>
     </section>
     <!-- Destinations -->
-    <section class="destinations">
-        <ul>
-            <li>Africa</li>
-            <li>Antarctica</li>Antarctica
-            <li>Asia</li>
-            <li>Europe</li>
-            <li>America</li>
+    <section class="destinations-menu">
+        <ul class="destination-list">
+            <li><a href="#" class="destination-item">Africa</a></li>
+            <li><a href="#" class="destination-item">Antarctica</a></li>
+            <li><a href="#" class="destination-item">Asia</a></li>
+            <li><a href="#" class="destination-item">Europe</a></li>
+            <li><a href="#" class="destination-item">America</a></li>
         </ul>
     </section>
     <!-- Shop -->

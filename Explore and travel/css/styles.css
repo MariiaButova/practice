@@ -14,6 +14,7 @@ body {
 h3 {
     margin: 0px;
 }
+
 /* Navigation styles */
 
 .nav { 
@@ -70,7 +71,7 @@ h3 {
 }
 
 
-.btn-register, .btn-login:hover {
+.btn-login:hover {
     border: none;
     background-color: #FB8F1D;
     color: #FFFFFF;
@@ -80,6 +81,14 @@ h3 {
     background-color: #ffffff;
     border: 1px solid #FB8F1D;
     color: #FB8F1D;
+}
+
+.btn-orange {
+    border: none;
+    background-color: #FB8F1D;
+    color: #FFFFFF;
+    border-radius: 8px;
+    font-family: 'Inter';
 }
 
 /* Header styles */
@@ -142,10 +151,8 @@ select.form-item:nth-of-type(odd) {
 .btn-explore {
     width: 180px;
     height: 52px;
-    background: #FB8F1D;
-    border-radius: 8px;
-    color: #FFFFFF;
-    border: none;
+    font-weight: 700;
+    font-size: 17px;
 }
 
 .btn-explore:hover {
@@ -196,11 +203,6 @@ select.form-item:nth-of-type(odd) {
 .btn-learn-more  {
     width: 164px;
     height: 48px;
-    background: #FB8F1D;
-    border-radius: 8px;
-    border: none;
-    color: #ffffff;
-    font-family: 'Inter';
     font-weight: 600;
     font-size: 16px;
     margin-top: 33px;
@@ -282,7 +284,102 @@ figure {
 }
 
 
+/* Article guides styles */ 
 
+.guides {
+    margin-left: 240px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 248px;
+}
+
+section.article-content .section-title  {
+    width: 400px;
+}
+
+.btn-download {
+    width: 164px;
+    height: 48px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.btn-download:hover {
+    border: 1px solid #FB8F1D;
+    background:#ffffff;
+    color:#FB8F1D;
+}
+
+.guide-img {
+    width: 599px;
+    height: 542px; 
+}
+
+/* Section testimonials styles */
+
+.testimonial {
+    margin-left: 240px;
+}
+
+section.testimonial .section-title {
+    margin-bottom: 60px;
+}
+
+.section-content {
+    display: flex;
+    align-items: center;
+    gap: 170px;
+}
+
+.stars {
+   margin-bottom: 30px; 
+}
+
+.comment {
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    width: 450px;
+    margin-bottom: 40px;
+}
+
+.commentator {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+.commentator-work {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.85);
+    margin-top: 5px;
+}
+
+.commentator-photo {
+    position: relative;
+}
+
+.photo-man {
+    width: 384px;
+    height: 491px;
+    border-radius: 14px;
+}
+
+.switch-arrow {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 132px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border-radius: 16px 0px 0px 0px;
+}
 
 
 
