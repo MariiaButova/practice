@@ -8,7 +8,7 @@ body {
 
 .wrapper{
    max-width: 1600px;
-   margin: 0 auto;
+   margin: auto;
 }
 
 h3 {
@@ -19,10 +19,7 @@ h3 {
 
 .nav { 
     display: flex;
-    margin-top: 34px;
-    margin-left: 191px;
-    margin-bottom: 74px;
-    font-family: Inter;
+    margin: 34px 0 74px 191px;
 }
 
 .logo {
@@ -40,12 +37,10 @@ h3 {
 .nav-item a {
     text-decoration: none;
     color:#B8BECD;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+    font: 400 16px/19px 'Inter';
 }
 
-.nav-item a.active {
+a.active {
     font-weight: 500;
 }
 
@@ -59,25 +54,18 @@ h3 {
     width: 132px;
     height: 44px;
     border-radius: 8px;
-    font-weight: 500;
-    font-size: 15px;
-}
-
-.btn-login {
-    background-color: #ffffff;
-    border: 1px solid #FB8F1D;
-    margin-right: 18px;
-    color: #FB8F1D;
-}
-
-
-.btn-login:hover {
+    font: 500 15px 'Inter';
     border: none;
     background-color: #FB8F1D;
     color: #FFFFFF;
 }
 
-.btn-register:hover {
+.btn-login {
+    margin-right: 18px;
+}
+
+
+.btn-register:hover, .btn-login:hover {
     background-color: #ffffff;
     border: 1px solid #FB8F1D;
     color: #FB8F1D;
@@ -88,14 +76,12 @@ h3 {
     background-color: #FB8F1D;
     color: #FFFFFF;
     border-radius: 8px;
-    font-family: 'Inter';
 }
 
 /* Header styles */
 
 header {
-    margin-left: 189px;
-    margin-bottom: 270px;
+    margin: 0 0 270px 189px;
     display: flex;
     gap: 147px;
 }
@@ -142,8 +128,7 @@ select.form-item:nth-of-type(odd) {
 .btn-explore {
     width: 180px;
     height: 52px;
-    font-weight: 700;
-    font-size: 17px;
+    font: 700 17px 'Mulish';
 }
 
 .btn-explore:hover {
@@ -161,11 +146,10 @@ select.form-item:nth-of-type(odd) {
 /* Explore article styles */
 
 .article-explore {
-    margin-left: 141px;
+    margin: 0 0 262px 141px;
     display: flex;
     gap: 102px;
     align-items: center;
-    margin-bottom: 262px;
 }
 
 .explore-image {
@@ -188,8 +172,7 @@ select.form-item:nth-of-type(odd) {
 .btn-learn-more  {
     width: 164px;
     height: 48px;
-    font-weight: 600;
-    font-size: 16px;
+    font: 600 16px 'Inter';
     margin-top: 33px;
 }
 
@@ -202,8 +185,7 @@ select.form-item:nth-of-type(odd) {
 /* destination section styles */
 
 .destinations {
-    margin-left: 240px;
-    margin-bottom: 173px;
+    margin: 0 0 173px 240px;
 }
 
 .view-all {
@@ -262,11 +244,10 @@ figure {
 /* Article guides styles */ 
 
 .guides {
-    margin-left: 240px;
+    margin: 0 0 248px 240px;
     display: flex;
     align-items: center;
     gap: 80px;
-    margin-bottom: 248px;
 }
 
 section.article-content .section-title  {
@@ -294,8 +275,7 @@ section.article-content .section-title  {
 /* Section testimonials styles */
 
 .testimonial {
-    margin-left: 240px;
-    margin-bottom: 213px;
+    margin: 0 0 213px 240px;
 }
 
 .section-title {
