@@ -200,7 +200,7 @@ select.form-item:nth-of-type(odd) {
 }
 
 .view-all:hover {
-    text-decoration: underline;
+    text-decoration: 2px underline;
 }
 
 /* figures styles */
@@ -354,8 +354,45 @@ section.article-content .section-title  {
 
 /* Section trending stories styles */ 
 
+.trending-stories {
+    margin: 0 0 271px 240px;
+}
 
+.story {
+    display: inline-block;
+    width: 266px;
+}
 
+article.story:not(:last-of-type) {
+    margin-right: 20px;
+}
 
+.story-photo {
+    width: 261px;
+    height: 231px;
+    border-radius: 8px 8px 0 0;
+    object-fit: cover;
+    object-position: top center;
+}
 
+.title-story {
+    font: 700 19px/30px 'Inter';
+    margin: 13px 0;
+}
 
+.story-content {
+    font: 400 15px/26px 'Inter';
+    color: #7D7987;;
+}
+
+.read-more {
+    font: 600 15px/28px 'Inter';
+    text-decoration: none;
+    color: #FB8F1D;
+}
+
+.read-more:hover {
+    text-decoration: 2px underline;
+}
+
+/* footer styles */
