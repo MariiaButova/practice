@@ -103,10 +103,7 @@ header {
 
 .header-content h1 {
     max-width: 356px;
-    font-family: 'Playfair Display';
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 80px;
+    font: bold 64px/80px 'Playfair Display', serif;
     color: #202336;
 }
 
@@ -122,10 +119,7 @@ fieldset, legend {
 }
 
 .form-caption {
-    font-family: 'Inter';
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 27px;
+    font: 600 22px/27px 'Inter', sans-serif;
     color: #202336;
 }
 
@@ -135,10 +129,7 @@ fieldset, legend {
     border: 0.8px solid #AFB0B9;
     border-radius: 6px;
     margin-top: 35px;
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 32px;
+    font: 400 15px/32px 'Inter';
     color: #4A4C53;
 }
 
@@ -183,19 +174,13 @@ select.form-item:nth-of-type(odd) {
 }
 
 .section-title {
-    font-family: 'Playfair Display';
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 50px;
+    font: 700 36px/50px 'Playfair Display';
     display: inline-block;
     width: 481px;
 }
 
 .section-text {
-    font-family: 'Mulish';
-    font-weight: 300;
-    font-size: 17px;
-    line-height: 30px;
+    font: 300 17px/30px 'Mulish';
     color: #7D7987;
     width: 450px;
 }
@@ -221,18 +206,11 @@ select.form-item:nth-of-type(odd) {
     margin-bottom: 173px;
 }
 
-.destination-title {
-    margin-right: 560px;
-    margin-bottom: 56px;
-}
-
 .view-all {
     text-decoration: none;
     color:#FB8F1D;
-    font-family: 'Inter';
-    font-weight: 600;
-    font-size: 17px;
-    line-height: 60px;
+    font: 600 17px/60px 'Inter';
+    margin-left: 560px;
 }
 
 .arrow-right {
@@ -272,10 +250,7 @@ figure {
     position: absolute;
     bottom: 0px;
     left: 0px;
-    font-family: 'Inter';
-    font-weight: 600;
-    font-size: 17px;
-    line-height: 25px;
+    font: 600 17px/25px 'Inter';
 }
 
 .destination-name-country {
@@ -301,8 +276,7 @@ section.article-content .section-title  {
 .btn-download {
     width: 164px;
     height: 48px;
-    font-weight: 600;
-    font-size: 16px;
+    font: 600 16px 'Inter';
     margin-top: 40px;
 }
 
@@ -321,9 +295,10 @@ section.article-content .section-title  {
 
 .testimonial {
     margin-left: 240px;
+    margin-bottom: 213px;
 }
 
-section.testimonial .section-title {
+.section-title {
     margin-bottom: 60px;
 }
 
@@ -338,30 +313,23 @@ section.testimonial .section-title {
 }
 
 .comment {
-    font-family: 'Mulish';
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 36px;
+    font: 400 24px/36px 'Mulish';
     width: 450px;
     margin-bottom: 40px;
 }
 
 .commentator {
-    font-family: 'Inter';
-    font-weight: 700;
-    font-size: 22px;
+    font: 700 22px 'Inter';
     margin-bottom: 0;
 }
 
 .commentator-work {
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 18px;
+    font: 400 18px  'Inter';
     color: rgba(0, 0, 0, 0.85);
     margin-top: 5px;
 }
 
-.commentator-photo {
+.section-content-photo {
     position: relative;
 }
 
@@ -371,7 +339,7 @@ section.testimonial .section-title {
     border-radius: 14px;
 }
 
-.switch-arrow {
+.switch-arrows {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -379,7 +347,33 @@ section.testimonial .section-title {
     height: 60px;
     background-color: #FFFFFF;
     border-radius: 16px 0px 0px 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 22px;
 }
+
+.switch-arrow-left, .switch-arrow-right {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.switch-arrow-left, .switch-arrow-right {
+    border: 2px solid #D7D7D7;
+}
+
+.switch-arrow-left:hover, .switch-arrow-right:hover {
+    border: 2px solid #000000;
+}
+
+
+/* Section trending stories styles */ 
+
 
 
 
