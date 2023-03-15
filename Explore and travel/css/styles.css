@@ -365,7 +365,6 @@ section.article-content .section-title  {
     width: 266px;
 }
 
-
 article.story:not(:last-of-type) {
     margin-right: 20px;
 }
@@ -445,6 +444,10 @@ ul.footer-menu-list:last-of-type {
     color: #000000; 
 }
 
+.footer-menu-item a:hover {
+    text-decoration: 2px underline;
+}
+
 .footer-line {
     margin: 0 90px 30px 219px;
     background-color: #C4C4C4;
@@ -465,3 +468,4 @@ ul.footer-menu-list:last-of-type {
 .socials a {
     color: #000000;
 }
+
