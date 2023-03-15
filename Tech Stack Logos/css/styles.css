@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 704px;
+    height: 438px;
+    margin: 0 auto;
+    background: #131623;
+    display: flex;
+    gap: 28px;
+}
+
+/* aside styles */ 
+
+aside.tech-skill {
+    width: 220px;
+    margin: 0 0 59px 48px;
+}
+
+.title {
+    font: 700 48px/43px 'Inter';
+    color: #FFFFFF;
+    margin-bottom: 81px;
+}
+
+/*  button styles */
+
+
+.tech-logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.switch-color {
+    width: 206px;
+    height: 40px;
+    border: none;
+    background: #252A41;
+    border-radius: 100px;
+    margin-bottom: 7px;
+    color: #FFFFFF;
+    font: 600 14px/20px 'Inter';
+}
+
+.switch-icon {
+    color:#FFFFFF;
+    margin-right: 10px;
+    font-size: 17px;
+}
+
+/* Main styles */
+
+figure {
+    margin:0;
+}
+
+.logo-background {
+    width: 56px;
+    height: 56px;
+    background: #1E2235;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* logos styles */
+
+.jamstack-logo {
+    width: 31px;
+    height: 31px;
+    transition: transform 1s;
+}
+
+.jamstack-logo:hover {
+    transform: rotate(180deg);
+}
+
+.node-js-icon {
+    width: 28px;
+    height: 31px;
+    transition: transform 3s;
+}
+
+.node-js-icon:hover {
+    transform: rotate(360deg);
+}
+
+.sass-logo {
+    width: 31px;
+    height: 23px;
+    transition: transform 1s;
+}
+
+.sass-logo:hover {
+    transform: skewX(30deg);
+}
+
+.git-lab-logo {
+    width: 31px;
+    height: 28px;
+    transition: transform 1s;
+}
+
+.git-lab-logo:hover {
+    transform: rotateX(180deg);
+}
+
+.visual-studio-logo {
+    width: 31px;
+    height: 30px;
+    transition: transform 2s;
+}
+
+.visual-studio-logo:hover {
+    transform: rotateY(180deg);
+}
