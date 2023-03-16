@@ -38,6 +38,7 @@ aside.tech-skill {
     display: flex;
     flex-wrap: wrap;
     gap: 32px;
+    align-content: flex-start; 
 }
 
 .switch-color {
@@ -75,13 +76,14 @@ figure {
 
 /* logos styles */
 
+
 .jamstack-logo {
     width: 31px;
     height: 31px;
-    transition: transform 1s;
+    transition: transform 2s;
 }
 
-.jamstack-logo:hover {
+.logo-background:hover  .jamstack-logo {
     transform: rotate(180deg);
 }
 
@@ -106,13 +108,15 @@ figure {
 }
 
 .git-lab-logo {
-    width: 31px;
-    height: 28px;
-    transition: transform 1s;
+    width: 24px;
+    height: 21px;
+    transition: width 2s, height 2s, transform 2s;
 }
 
 .git-lab-logo:hover {
-    transform: rotateX(180deg);
+    width: 35px;
+    height: 32px;
+    transform: rotate(360deg);
 }
 
 .visual-studio-logo {
@@ -124,3 +128,72 @@ figure {
 .visual-studio-logo:hover {
     transform: rotateY(180deg);
 }
+
+.react-logo {
+    width: 31px;
+    height: 31px;
+    transition: transform 3s;
+}
+
+.react-logo:hover {
+    transform: rotate(360deg);
+}
+
+.php-logo {
+    width: 31px;
+    height: 15px;
+    transition: transform 2s;
+}
+
+.logo-background:hover .php-logo {
+    transform: rotate(180deg);
+}
+
+.python-logo {
+    position: relative;
+}
+
+.blue-python, .yellow-python {
+    width: 23px;
+    height: 23px;
+    position: absolute;
+}
+
+@keyframes move {
+    0% {left:13px; top:13px; transform: rotateY(0deg);}
+    50% {left: 5px; top: 10px; transform: rotateY(360deg);}
+    100%{left:13px; top:13px;}
+}
+
+.blue-python {
+    left: 13px;
+    top: 13px;
+    animation-name: move;
+    animation-duration: 2s; 
+    animation-iteration-count: 1;
+    animation-play-state: paused;
+}
+
+@keyframes move2 {
+    0% {right:13px; bottom:13px; transform: rotateY(0deg);}
+    50% {right: 5px; bottom: 10px; transform: rotateY(-360deg);}
+    100%{right:13px; bottom:13px;}
+}
+
+.yellow-python {
+    right: 13px;
+    bottom: 13px;
+    animation-name: move2;
+    animation-duration: 2s; 
+    animation-iteration-count: 1;
+    animation-play-state: paused;
+}
+
+.python-logo:hover .blue-python {
+    animation-play-state: running;
+}
+
+.python-logo:hover .yellow-python {
+    animation-play-state: running;
+}
+
