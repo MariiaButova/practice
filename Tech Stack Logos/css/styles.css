@@ -87,6 +87,8 @@ figure {
     transform: rotate(180deg);
 }
 
+/* node.js logo styles */
+
 .node-js-icon {
     width: 28px;
     height: 31px;
@@ -97,6 +99,8 @@ figure {
     transform: rotate(360deg);
 }
 
+/* sass logo styles */
+
 .sass-logo {
     width: 31px;
     height: 23px;
@@ -106,6 +110,8 @@ figure {
 .sass-logo:hover {
     transform: skewX(30deg);
 }
+
+/* gitLab logo styles */
 
 .git-lab-logo {
     width: 24px;
@@ -119,6 +125,8 @@ figure {
     transform: rotate(360deg);
 }
 
+/* visual logo styles */
+
 .visual-studio-logo {
     width: 31px;
     height: 30px;
@@ -128,6 +136,8 @@ figure {
 .visual-studio-logo:hover {
     transform: rotateY(180deg);
 }
+
+/*react logo styles */
 
 .react-logo {
     width: 31px;
@@ -139,6 +149,8 @@ figure {
     transform: rotate(360deg);
 }
 
+/* php logo styles */
+
 .php-logo {
     width: 31px;
     height: 15px;
@@ -148,6 +160,8 @@ figure {
 .logo-background:hover .php-logo {
     transform: rotate(180deg);
 }
+
+/* python logo styles */
 
 .python-logo {
     position: relative;
@@ -196,4 +210,27 @@ figure {
 .python-logo:hover .yellow-python {
     animation-play-state: running;
 }
+
+/* mangoMD logo styles */ 
+
+@keyframes rotate {
+    0%{transform: rotateZ(0deg);}
+    25%{transform: rotatey(90deg);}
+    50%{transform: rotatey(180deg);}
+    75%{transform: rotateY(270deg);}
+    100%{transform: rotateY(360deg);}
+} 
+
+.mango-md-logo {
+    width: 13px;
+    height: 31px;
+    animation: rotate 1s infinite;
+    animation-play-state: paused;
+}
+
+.logo-background:hover .mango-md-logo {
+    animation-play-state: running;
+}
+
+
 
