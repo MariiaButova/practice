@@ -95,7 +95,7 @@ figure {
     transition: transform 3s;
 }
 
-.node-js-icon:hover {
+.logo-background:hover .node-js-icon {
     transform: rotate(360deg);
 }
 
@@ -107,7 +107,7 @@ figure {
     transition: transform 1s;
 }
 
-.sass-logo:hover {
+.logo-background:hover .sass-logo {
     transform: skewX(30deg);
 }
 
@@ -119,7 +119,7 @@ figure {
     transition: width 2s, height 2s, transform 2s;
 }
 
-.git-lab-logo:hover {
+.logo-background:hover .git-lab-logo {
     width: 35px;
     height: 32px;
     transform: rotate(360deg);
@@ -133,7 +133,7 @@ figure {
     transition: transform 2s;
 }
 
-.visual-studio-logo:hover {
+.logo-background:hover .visual-studio-logo {
     transform: rotateY(180deg);
 }
 
@@ -145,7 +145,7 @@ figure {
     transition: transform 3s;
 }
 
-.react-logo:hover {
+.logo-background:hover .react-logo {
     transform: rotate(360deg);
 }
 
@@ -232,5 +232,35 @@ figure {
     animation-play-state: running;
 }
 
+/* xd logo styles */
+
+.xd-logo {
+    position: relative;
+}
+
+.xd-logo-emblem {
+    width: 19px;
+    height: 14px;
+    position: absolute;
+    z-index: 1;
+    transition: transform 3s;
+}
+
+.xd-logo:hover .xd-logo-emblem {
+    transform: rotateZ(-360deg);
+}
+
+.xd-logo-background, .xd-logo-border {
+    width: 31px;
+    height: 30px;
+    position: absolute;
+}
+
+.xd-logo-background, .xd-logo-border{
+    transition: transform 3   s;
+}
 
 
+.xd-logo:hover .xd-logo-border, .xd-logo:hover .xd-logo-background{
+    transform: rotateZ(360deg);
+}
