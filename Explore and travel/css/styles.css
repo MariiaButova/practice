@@ -40,7 +40,7 @@ a {
 
 .nav-item a {
     color:#B8BECD;
-    font: 400 16px/19px 'Inter';
+    font: 400 1rem/1.1rem 'Inter';
 }
 
 a.active {
@@ -57,7 +57,7 @@ a.active {
     width: 132px;
     height: 44px;
     border-radius: 8px;
-    font: 500 15px 'Inter';
+    font: 500 0.9rem 'Inter';
     border: none;
     background-color: #FB8F1D;
     color: #FFFFFF;
@@ -108,7 +108,7 @@ fieldset, legend {
 }
 
 .form-caption {
-    font: 600 22px/27px 'Inter', sans-serif;
+    font: 600 1.3rem/1.6rem 'Inter', sans-serif;
     color: #202336;
 }
 
@@ -118,7 +118,7 @@ fieldset, legend {
     border: 0.8px solid #AFB0B9;
     border-radius: 6px;
     margin-top: 35px;
-    font: 400 15px/32px 'Inter';
+    font: 400 0.9rem/2rem 'Inter';
     color: #4A4C53;
 }
 
@@ -131,7 +131,7 @@ select.form-item:nth-of-type(odd) {
 .btn-explore {
     width: 180px;
     height: 52px;
-    font: 700 17px 'Mulish';
+    font: 700 1rem 'Mulish';
 }
 
 .btn-explore:hover {
@@ -161,13 +161,13 @@ select.form-item:nth-of-type(odd) {
 }
 
 .section-title {
-    font: 700 36px/50px 'Playfair Display';
+    font: 700 2rem/3.1rem 'Playfair Display';
     display: inline-block;
     width: 481px;
 }
 
 .section-text {
-    font: 300 17px/30px 'Mulish';
+    font: 300 1.0625rem/1.875rem 'Mulish';
     color: #7D7987;
     width: 450px;
 }
@@ -175,7 +175,7 @@ select.form-item:nth-of-type(odd) {
 .btn-learn-more  {
     width: 164px;
     height: 48px;
-    font: 600 16px 'Inter';
+    font: 600 1rem 'Inter';
     margin-top: 33px;
 }
 
@@ -193,7 +193,7 @@ select.form-item:nth-of-type(odd) {
 
 .view-all {
     color:#FB8F1D;
-    font: 600 17px/60px 'Inter';
+    font: 600 1.0625rem/3.75rem 'Inter';
     margin-left: 560px;
 }
 
@@ -234,7 +234,7 @@ figure {
     position: absolute;
     bottom: 0px;
     left: 0px;
-    font: 600 17px/25px 'Inter';
+    font: 600 1.0625rem/25px 'Inter';
 }
 
 .destination-name-country {
@@ -259,7 +259,7 @@ section.article-content .section-title  {
 .btn-download {
     width: 164px;
     height: 48px;
-    font: 600 16px 'Inter';
+    font: 600 1rem 'Inter';
     margin-top: 40px;
 }
 
@@ -295,18 +295,18 @@ section.article-content .section-title  {
 }
 
 .comment {
-    font: 400 24px/36px 'Mulish';
+    font: 400 1.5rem/2.25rem 'Mulish';
     width: 450px;
     margin-bottom: 40px;
 }
 
 .commentator {
-    font: 700 22px 'Inter';
+    font: 700 1.375rem 'Inter';
     margin-bottom: 0;
 }
 
 .commentator-work {
-    font: 400 18px  'Inter';
+    font: 400 1.125rem 'Inter';
     color: rgba(0, 0, 0, 0.85);
     margin-top: 5px;
 }
@@ -378,17 +378,17 @@ article.story:not(:last-of-type) {
 }
 
 .title-story {
-    font: 700 19px/30px 'Inter';
+    font: 700 1.1875rem/1.875rem 'Inter';
     margin: 13px 0;
 }
 
 .story-content {
-    font: 400 15px/26px 'Inter';
+    font: 400 0.9375rem/1.625rem 'Inter';
     color: #7D7987;;
 }
 
 .read-more {
-    font: 600 15px/28px 'Inter';
+    font: 600 0.9375rem/1.75rem 'Inter';
     color: #FB8F1D;
 }
 
@@ -410,7 +410,7 @@ footer {
 section.inform {
     margin: 65px 108px 0 219px;
     width: 336px;
-    font: 300 18px/32px "Mulish";
+    font: 300 1.125rem/2rem "Mulish";
     color: #848484;
 }
 
@@ -436,11 +436,11 @@ ul.footer-menu-list:last-of-type {
 
 .footer-menu-item a {
     color: #848484;
-    font: 300 18px/38px 'Mulish';
+    font: 300 1.125rem/2.375rem 'Mulish';
 }
 
 .title-item a {
-    font: 700 19px/60px 'Mulish';
+    font: 700 1.1875rem/3.75rem 'Mulish';
     color: #000000; 
 }
 
