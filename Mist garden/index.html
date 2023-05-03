@@ -4,47 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Mist Garden</title>
 </head>
 <body>
     <header class="header">
-        <nav class="nav">
-            <a class="logo">
-                <img src="image/logo.png" alt="logo Mist Garden">
-            </a>
-            <ul class="menu">
-                <li class="menu-item">
-                    <a href="#">Home</a>
-                </li>
-                <li class="menu-item">
-                    <a href="#">Visit</a>
-                </li>
-                <li class="menu-item">
-                    <a href="#">Exhibitions</a>
-                </li>
-                <li class="menu-item">
-                    <a href="#">Programs & Events</a>
-                </li>
-                <li class="menu-item">
-                    <a href="#">Store</a>
-                </li>
-            </ul>
-            <a href="#" class="membership">Membership</a>
-        </nav>
+            <div class="container">
+                <div class="header__inner">
+                    <div class="logo">
+                        <a class="logo__link" href="#">
+                            <img class="logo__img" src="image/logo.png" alt="logo Mist Garden">
+                        </a>
+                    </div>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__list-item">
+                                <a class="menu__link" href="#">Home</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__link" href="#">Visit</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__link" href="#">Exhibitions</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__link" href="#">Programs & Events</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__link" href="#">Store</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__link menu__link--outline" href="#">Membership</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
     </header>
-    <main>
-        <section>
-            <h1>A beatiful adventure awaits</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nunc</p>
-            <a href="#" class="buy-tickets">Buy tickets</a>
-            <a href="#" class="learn-more">Learn more</a>
+    <main class="main">
+        <section class="top">
+            <div class="container">
+                <div class="top__inner">
+                    <div class="top__content">
+                        <h1 class="top__title">A beatiful adventure awaits</h1>
+                        <p class="top__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nunc</p>
+                        <a class="aplication-btn aplication-btn--primary" href="#">Buy tickets</a>
+                        <a class="aplication-btn aplication-btn--primary-outline" href="#">Learn more</a>
+                    </div>
+                    <div class="top__image">
+                        <img class="top_image-item" src="image/header-img.jpg" alt="plant" >
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="discover">
-            <img src="image/plant.jpg" alt="plant" class="plant">
-            <h2>Discover yourself with nature</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nuncLorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nunc</p>
-            <a href="#" class="learn-more">Learn more</a>
-            <img src="image/seating-area.jpg" alt="seating area" class="seating-area">
+            <div class="container">
+                <div class="discover__inner">
+                    <div class="content-img">
+                        <img class="content-img-top" src="image/plant.jpg" alt="plants">
+                    </div>
+                    <div class="discover__content">
+                        <h2 class="discover__title">Discover yourself with nature</h2>
+                        <p class="discover__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nuncLorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nunc</p>
+                        <a class="aplication-btn aplication-btn--outline" href="#">Learn more</a>
+                    </div>
+                    <div class="content-img">
+                        <img class="content-img-bottom" src="image/seating-area.jpg" alt="seating-area">
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="news">
             <h2>News & Updates</h2>
@@ -83,7 +112,7 @@
             </article>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <nav class="footer-nav">
             <dl>
                 <dt>
