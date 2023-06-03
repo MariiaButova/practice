@@ -13,66 +13,69 @@
 <body>
     <header class="header">
         <div class="container">
-        <div class="header__top">
-            <a class="logo logo__link" href="#">
-                <img class="logo__img" src="img/logo.png" alt="Logo">
-            </a>
-            <nav class="menu">
-                <ul class="menu__list">
-                    <li class="menu__list-item">
-                        <a class="menu__link menu__link--active" href="#">Home</a>
+            <div class="header__top">
+                <a class="logo logo__link" href="#">
+                    <img class="logo__img" src="img/logo.png" alt="Logo">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-item">
+                            <a class="menu__link menu__link--active" href="#">Home</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__link" href="#">Products</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__link" href="#">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="action__list">
+                    <li class="action__list-item">
+                        <a class="action__list-link" href="#">
+                            <img class="action__list-icon" src="img/cart-icon.svg" alt="cart icon">
+                        </a>
                     </li>
-                    <li class="menu__list-item">
-                        <a class="menu__link" href="#">Products</a>
+                    <li class="action__list-item">
+                        <a class="action__list-link" href="#">
+                            <img class="action__list-icon" src="img/person-icon.svg" alt="profile icon">
+                        </a>
                     </li>
-                    <li class="menu__list-item">
-                        <a class="menu__link" href="#">Contacts</a>
+                    <li class="action__list-item">
+                        <a class="action__list-link" href="#">
+                            <img class="action__list-icon" src="img/filter-right-icon.svg" alt="filter icon">
+                        </a>
                     </li>
                 </ul>
-            </nav>
-            <ul class="action__list">
-                <li class="action__list-item">
-                    <a class="action__list-link" href="#">
-                        <img class="action__list-icon" src="img/cart-icon.svg" alt="cart icon">
-                    </a>
-                </li>
-                <li class="action__list-item">
-                    <a class="action__list-link" href="#">
-                        <img class="action__list-icon" src="img/person-icon.svg" alt="profile icon">
-                    </a>
-                </li>
-                <li class="action__list-item">
-                    <a class="action__list-link" href="#">
-                        <img class="action__list-icon" src="img/filter-right-icon.svg" alt="filter icon">
-                    </a>
-                </li>
-            </ul>
+            </div>
         </div>
-        <div class="header__content">
-            <div class="container">
-                <div class="header__content-inner">
-                    <div class="header__content-search">
-                        <h1 class="header__content-title">Buy your dream plants</h1>
-                        <dl class="search__list">
+    </header>
+    <section class="top">
+        <div class="container">
+            <div class="top__inner">
+                <div class="top__content">
+                    <h1 class="top__title">Buy your dream plants</h1>
+                    <div class="search__list">
+                        <dl class="search__list-content search__list-item">
                             <dt class="search__list-amount">50+</dt>
                             <dd class="search__list-object">Plant Species</dd>
+                        </dl>
+                        <dl class="search__list-content">
                             <dt class="search__list-amount">100+</dt>
                             <dd class="search__list-object">Customers</dd>
                         </dl>
-                        <form class="form" action="#">
-                            <label class="form__label" for="search"></label>
-                            <input class="form__input" id="search" type="text" name="search" palceholder="What are you looking for?">
-                            <input class="form__input-submit" type="submit" value="search">
-                        </form>
                     </div>
-                    <div class="header__content-image">
-                        <img class="header__content-item" src="img/plant_img.png" alt="Plant in a pot">
-                    </div>
+                    <form class="form" action="#">
+                        <label class="form__label" for="search"></label>
+                        <input class="form__input" id="search" type="search" name="search" palceholder="What are you looking for?">
+                    </form>
+                </div>
+                <div class="top__image">
+                    <img class="top__content-item" src="img/plant_img.png" alt="Plant in a pot">
                 </div>
             </div>
-        </div>
-    </div>
-    </header>
+        </div> 
+    </section>
     <section class="selling-plants">
         <div class="container">
             <div class="selling-plants__inner">
