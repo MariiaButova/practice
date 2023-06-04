@@ -84,6 +84,7 @@ dd {
     line-height: 64px;
     color: #000000;
     margin-bottom: 24px;
+    max-width: 472px;
 }
 
 .search__list {
@@ -101,13 +102,6 @@ dd {
 .search__list-amount {
     font-size: 32px;
     line-height: 48px;
-}
-
-.form__input {
-    width: 449px;
-    height: 64px;
-    background: #FFFFFF;
-    border-radius: 12px;
 }
 
 
