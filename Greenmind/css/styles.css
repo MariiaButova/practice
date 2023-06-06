@@ -132,18 +132,30 @@ h3 {
 
 .selling-plants__text {
     max-width: 196px;
-    margin-bottom: 24px;
+    margin-bottom: 34px;
 }
 
 .aplication-btn {
     color: #1E1E1E;
-    padding: 12px 24px;
+    padding: 12px 58px 12px 24px;
+    cursor: pointer;
 }
 
 .btn__see-more {
     background: #C1DCDC;
     border-radius: 8px;
     width: 168px;
+    position: relative;
+}
+
+.btn__text::after {
+    content: "";
+    position: absolute;
+    right: 24px;
+    top: 15px;
+    width: 24px;
+    height: 21px;
+    background-image: url(../img/ArrowRight.svg);
 }
 
 .selling-plants__list {
@@ -152,10 +164,17 @@ h3 {
     gap: 48px;
 }
 
-.list-box__image {
+.list__item-image {
     width: 299px;
     height: 363px;
 }
 
+.list__item-title {
+    color: #1E1E1E;
+}
+
+.list__item-price {
+    margin-top: 7px;
+}
 
 
