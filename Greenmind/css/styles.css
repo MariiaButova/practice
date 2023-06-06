@@ -75,7 +75,7 @@ dd {
 }
 
 .top__content {
-    padding: 0px 284px 0 48px;
+    padding: 0px 25px 0 48px;
 }
 
 .top__title {
@@ -103,5 +103,59 @@ dd {
     font-size: 32px;
     line-height: 48px;
 }
+
+.top__img {
+    max-width: 722px;
+    height: 514px;
+}
+
+/*selling plants section styles */
+
+h3 {
+    margin: 0;
+}
+
+.selling-plants__inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 96px;
+    align-content: flex-start;
+}
+
+.selling-plants__title {
+    max-width: 256px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #1E1E1E;
+}
+
+.selling-plants__text {
+    max-width: 196px;
+    margin-bottom: 24px;
+}
+
+.aplication-btn {
+    color: #1E1E1E;
+    padding: 12px 24px;
+}
+
+.btn__see-more {
+    background: #C1DCDC;
+    border-radius: 8px;
+    width: 168px;
+}
+
+.selling-plants__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+.list-box__image {
+    width: 299px;
+    height: 363px;
+}
+
 
 
