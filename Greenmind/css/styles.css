@@ -122,12 +122,15 @@ h3 {
     align-content: flex-start;
 }
 
-.selling-plants__title {
-    max-width: 256px;
+.title {
     font-weight: 700;
     font-size: 32px;
     line-height: 48px;
     color: #1E1E1E;
+}
+
+.selling-plants__title {
+    max-width: 256px;
 }
 
 .selling-plants__text {
@@ -175,6 +178,41 @@ h3 {
 
 .list__item-price {
     margin-top: 7px;
+}
+
+/* about section styles */
+
+.about__content {
+    text-align: center;
+    padding-top: 112px;
+}
+
+.about__text {
+    margin-bottom: 48px;
+}
+
+.about__content-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__item {
+    text-align: center;
+}
+
+.about__item-image {
+    max-width: 96px;
+    max-height: 96px;
+    margin-bottom: 24px;
+}
+
+.item__title {
+    font-weight: 700;
+    color: #000000;
+}
+
+.about__item-text {
+    max-width: 400px;
 }
 
 
