@@ -1,7 +1,5 @@
 
 
-$(document).ready(function(){
-    $('.review-list').slick({
-        dots: true,
-    });
+$(function(){
+    $('.review-list').slick();
   });
