@@ -108,6 +108,8 @@ dd {
     line-height: 48px;
 }
 
+
+
 /*selling plants section styles */
 
 h3 {
@@ -287,5 +289,12 @@ h3 {
     border-radius: 12px;
     margin: 0 48px 230px 0;
 }
+
+.review__person {
+    display: flex;
+}
+
+
+
 
 
