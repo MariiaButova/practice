@@ -266,10 +266,17 @@ h3 {
     text-transform: uppercase;
 }
 
+.review-list {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 .review__box {
     max-width: 800px;
     padding: 48px 48px 0px 48px;
     background: #C1DCDC;
     border-radius: 12px;
+    margin: 0 48px 230px 0;
 }
+
 
