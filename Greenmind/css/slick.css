@@ -5,6 +5,11 @@
 
 .slick-dots {
     display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
 }
 
 .slick-dots li {
@@ -26,3 +31,5 @@
     height: 6px;
     background: #C1DCDC;
 }
+
+
