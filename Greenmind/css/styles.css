@@ -290,9 +290,30 @@ h3 {
     margin: 0 48px 230px 0;
 }
 
+.review__box-text {
+    color: #1E1E1E;
+    text-align: justify;
+    max-width: 704px;
+}
+
 .review__person {
     display: flex;
 }
+
+.review__person-info {
+    max-width: 86px;
+}
+
+.review__person-name {
+    color: #1E1E1E;
+    font-weight: 700;;
+}
+
+.review__person-job {
+    font-size: 12px;
+    color: rgba(30, 30, 30, 0.5);
+}
+
 
 
 
