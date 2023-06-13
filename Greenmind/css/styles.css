@@ -16,18 +16,11 @@ a {
     text-decoration: none;
 }
 
-ul {
-    list-style-type: none;
-}
-
-dd {
-    margin: 0;
-}
-
 .container {
     max-width: 1268px;
     margin: 0 auto;
     position: relative;
+    padding: 0 10px;
 }
 
 /* header styles */
@@ -79,7 +72,7 @@ dd {
 }
 
 .top__content {
-    padding: 0px 25px 0 48px;
+    padding: 48px 25px 0 48px;
 }
 
 .top__title {
@@ -112,10 +105,6 @@ dd {
 
 /*selling plants section styles */
 
-h3 {
-    margin: 0;
-}
-
 .selling-plants__inner {
     display: flex;
     justify-content: space-between;
@@ -128,6 +117,7 @@ h3 {
     font-size: 32px;
     line-height: 48px;
     color: #1E1E1E;
+    margin-bottom: 12px;
 }
 
 .selling-plants__title {
@@ -147,9 +137,12 @@ h3 {
 }
 
 .btn__see-more {
+    display: inline-block;
     background: #C1DCDC;
     border-radius: 8px;
     width: 168px;
+    transition: all .5s;
+    box-shadow: 0 0 5px inherit;
 }
 
 .btn-text::after {
@@ -160,6 +153,11 @@ h3 {
     width: 24px;
     height: 21px;
     background-image: url(../img/ArrowRight.svg);
+}
+
+.btn__see-more:hover {
+    transform: scale(1.15);
+    box-shadow: 0 0 5px #1E1E1E;
 }
 
 .selling-plants__list {
@@ -176,10 +174,6 @@ h3 {
     flex-direction: column;
     justify-content: space-between;
     transition: all .5s;
-}
-
-.selling-plants__item p {
-    margin: 0;
 }
 
 .list__item-image {
@@ -214,6 +208,7 @@ h3 {
 .item__title {
     font-weight: 700;
     color: #000000;
+    margin-bottom: 12px;
 }
 
 .about__item {
@@ -231,12 +226,28 @@ h3 {
 
 /* categories section styles */
 
+.categories {
+    position: relative;
+}
+
+.categories::after {
+    background-color: #C1DCDC;
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    top: 183px;
+    right: 0;
+    width: 100%;
+    height: 841px;
+    z-index: -1;
+}
+
 .categories__content {
     text-align: center;
 }
 
 .categories__text {
-    margin-bottom: 141px;
+    margin-bottom: 48px;
 }
 
 .categories__plant {
@@ -250,6 +261,7 @@ h3 {
 
 .categories__item-text {
     max-width: 352px;
+    margin-bottom: 24px;
 }
 
 .categories__item {
@@ -258,7 +270,19 @@ h3 {
 
 .content-btn {
     text-align: center;
-    margin-bottom: 101px;
+}
+
+.categories__btn {
+    display: inline-block;
+    background: #FFFFFF;
+    border-radius: 8px;
+    transition: all .5s;
+    box-shadow: 0 0 5px inherit;
+}
+
+.categories__btn:hover {
+    box-shadow: 0px 0px 5px #1E1E1E;
+    transform: scale(1.15);
 }
 
 /* review section styles */
@@ -268,7 +292,7 @@ h3 {
 }
 
 .reviews__title {
-    margin: 96px 0 48px;
+    margin: 197px 0 48px;
     max-width: 457px;
 }
 
@@ -279,7 +303,7 @@ h3 {
 .review-list {
     display: flex;
     flex-direction: column-reverse;
-    overflow: hidden;
+    max-width: 1344px;
 }
 
 .review__box {
@@ -298,10 +322,12 @@ h3 {
 
 .review__person {
     display: flex;
+    align-items: center;
 }
 
 .review__person-info {
     max-width: 86px;
+    margin-left: 13px;
 }
 
 .review__person-name {
