@@ -8,22 +8,32 @@
     <title>Explore and travel</title>
 </head>
 <body>
-    <div class="wrapper">
-    <!-- Navigation -->
-    <nav class="nav">
-        <a href="#" class="logo"><img src="img/logo.jpg" alt="logo"></a>
-        <ul class="nav-list">
-            <li class="nav-item"><a href="#" class="active">Home</a></li>
-            <li class="nav-item"><a href="#">Destinations</a></li>
-            <li class="nav-item"><a href="#">About</a></li>
-            <li class="nav-item"><a href="#">Partner</a></li>
-        </ul>
-        <!-- navigation buttons -->
-        <button onclick="myFunction()" class="btn-login">Login</button>
-        <button onclick="myFunction()" class="btn-register btn-orange">Register</button>
-    </nav>
-     <!-- Header -->
-   <header>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+        <!-- Navigation -->
+        <div class="header__inner">
+            <a class="logo" href="#"><img src="img/logo.svg" alt="logo"></a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="list-item">
+                        <a class="list-item__link" href="#" class="active">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a class="list-item__link" href="#">Destinations</a>
+                    </li>
+                    <li class="list-item">
+                        <a class="list-item__link" href="#">About</a>
+                    </li>
+                    <li class="list-item">
+                        <a class="list-item__link" href="#">Partner</a>
+                    </li>
+                </ul>
+                <!-- navigation buttons -->
+                <a class="button btn-login">Login</a>
+                <a class="button btn-register">Register</a>
+            </nav>
+        </div>
     <div class="header-content">
         <h1>Explore and Travel</h1>
         <!-- Form -->
@@ -62,6 +72,7 @@
         <figure class="header-form-img">
             <img src="img/form-img.png" alt="traveling-man" class="form-img">
         </figure>
+    </div>
    </header>
    <!-- Main -->
    <main>
