@@ -12,7 +12,7 @@
     <header class="header">
         <div class="container">
         <!-- Navigation -->
-            <div class="header__inner">
+            <div class="header__top">
                 <a class="logo" href="#">
                     <img src="img/logo.svg" alt="logo">
                 </a>
@@ -36,45 +36,45 @@
                 <a class="button btn-login">Login</a>
                 <a class="button btn-register">Register</a>
             </div>
-        <div class="header-content">
-        <h1>Explore and Travel</h1>
-        <!-- Form -->
-        <form action="#" class="holiday-finder">
-            <fieldset class="criteria">
-                <legend class="form-caption">Holiday finder</legend>
-                <label for="location"></label>
-                <select id="location" name="location" class="form-item">
-                    <option value="location">Location</option>
-                    <option value="china">China</option>
-                    <option value="indonesia">Indonesia</option>
-                    <option value="switzerland">Switzerland</option>
-                    <option value="montenegro">Montenegro</option>
-                </select>
-                <label for="activity"></label>
-                <select id="activity" name="activity" class="form-item">
-                    <option value="activity">Activity</option>
-                    <option value="yoga">Yoga</option>
-                    <option value="diving">Diving</option>
-                    <option value="climbing">Climbing</option>
-                    <option value="surfing">Surfing</option>
-                </select>
-                <label for="grade"></label>
-                <select id="grade" name="grade" class="form-item"> 
-                    <option value="grade">Grade</option>
-                </select>
-                <label for="date"></label>
-                <select id="date" name="date" class="form-item">            
-                    <option value="date">Date</option>
-                </select>
-            </fieldset>
-            <input type="submit" value="Explore" class="btn-explore btn-orange">
-        </form>
-    </div>
-        <!-- Form image -->
-        <figure class="header-form-img">
-            <img src="img/form-img.png" alt="traveling-man" class="form-img">
-        </figure>
-    </div>
+            <div class="header__content">
+                <h1 class="header__content-title">Explore and Travel</h1>
+                <!-- Form -->
+                <form action="#" class="form">
+                    <fieldset class="form__content">
+                        <legend class="form__caption">Holiday finder</legend>
+                        <label class="form__label" for="location"></label>
+                        <select class="form__item" id="location" name="location">
+                            <option class="form__item-name" value="location">Location</option>
+                            <option class="form__item-name" value="china">China</option>
+                            <option class="form__item-name" value="indonesia">Indonesia</option>
+                            <option class="form__item-name" value="switzerland">Switzerland</option>
+                            <option class="form__item-name" value="montenegro">Montenegro</option>
+                        </select>
+                        <label class="form__label" for="activity"></label>
+                        <select class="form__item" id="activity" name="activity">
+                            <option class="form__item-name" value="activity">Activity</option>
+                            <option class="form__item-name" value="yoga">Yoga</option>
+                            <option class="form__item-name" value="diving">Diving</option>
+                            <option class="form__item-name" value="climbing">Climbing</option>
+                            <option class="form__item-name" value="surfing">Surfing</option>
+                        </select>
+                        <label class="form__label" for="grade"></label>
+                        <select class="form__item" id="grade" name="grade"> 
+                            <option class="form__item-name" value="grade">Grade</option>
+                        </select>
+                        <label class="form__label" for="date"></label>
+                        <select class="form__item" id="date" name="date" class="form-item">            
+                            <option class="form__item-name" value="date">Date</option>
+                        </select>
+                    </fieldset>
+                    <input class="button btn__explore" type="submit" value="Explore">
+                </form>
+            </div>
+            <!-- Form image -->
+            <figure class="header-form-img">
+                <img src="img/form-img.png" alt="traveling-man" class="form-img">
+            </figure>
+        </div>
    </header>
    <!-- Main -->
    <main>
