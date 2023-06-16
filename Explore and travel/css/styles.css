@@ -32,6 +32,7 @@ a {
 .header__inner {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav {
@@ -40,7 +41,10 @@ a {
 
 .nav-list {
     display: flex;
-    gap: 34px;
+}
+
+.list-item {
+    margin-right: 34px;
 }
 
 .list-item__link {
@@ -59,32 +63,40 @@ a {
 
 /* Navigation button styles */
 
-.btn-login, .btn-register {
+.button {
     width: 132px;
     height: 44px;
     border-radius: 8px;
     font: 500 0.9rem 'Inter';
-    border: none;
-    background-color: #FB8F1D;
-    color: #FFFFFF;
+    padding: 12px 46px;
 }
 
 .btn-login {
     margin-right: 18px;
-}
-
-
-.btn-register:hover, .btn-login:hover {
-    background-color: #ffffff;
     border: 1px solid #FB8F1D;
     color: #FB8F1D;
+    transition: all .5s;
 }
 
-.btn-orange {
+
+.btn-login:hover {
     border: none;
     background-color: #FB8F1D;
     color: #FFFFFF;
-    border-radius: 8px;
+}
+
+.btn-register {
+    border: none;
+    background-color: #FB8F1D;
+    color: #FFFFFF;
+    transition: all .5s;
+    
+}
+
+.btn-register:hover {
+    background: none;
+    border: 1px solid #FB8F1D;
+    color: #FB8F1D;
 }
 
 /* Header styles */
