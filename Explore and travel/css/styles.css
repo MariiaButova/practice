@@ -25,7 +25,6 @@ a {
 .container {
     max-width: 1220px;
     margin: 0 auto;
-    border: 1px solid black;
     padding: 35px 0;
 }
 
@@ -33,6 +32,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 72px;
 }
 
 /* Navigation styles */
@@ -73,7 +73,7 @@ a {
     padding: 12px 46px;
 }
 
-.btn-login {
+.button__login {
     margin-right: 18px;
     border: 1px solid #FB8F1D;
     color: #FB8F1D;
@@ -81,13 +81,13 @@ a {
 }
 
 
-.btn-login:hover {
+.button__login:hover {
     border: none;
     background-color: #FB8F1D;
     color: #FFFFFF;
 }
 
-.btn-register {
+.button__register {
     border: none;
     background-color: #FB8F1D;
     color: #FFFFFF;
@@ -95,7 +95,7 @@ a {
     
 }
 
-.btn-register:hover {
+.button__register:hover {
     background: none;
     border: 1px solid #FB8F1D;
     color: #FB8F1D;
@@ -103,41 +103,47 @@ a {
 
 /* Header content styles */
 
+.header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__content-inner {
+    max-width: 50%;
+}
+
 
 .header__content-title {
     max-width: 356px;
     font: bold 64px/80px 'Playfair Display', serif;
     color: #202336;
-    max-width: 356px;
+    margin-bottom: 74px;
 }
 
 /* Form styles */
 
 fieldset, legend {
     border: none;
-    padding-left: 0px;
-    margin-left: 0px;
-}
-.criteria {
-    margin-bottom: 47px;
 }
 
 .form__caption {
     font: 600 1.3rem/1.6rem 'Inter', sans-serif;
     color: #202336;
+    margin-bottom: 35px;
 }
 
-.form-item {
+.form__item {
     width: 220px;
     height: 52px;
     border: 0.8px solid #AFB0B9;
     border-radius: 6px;
-    margin-top: 35px;
     font: 400 0.9rem/2rem 'Inter';
     color: #4A4C53;
+    margin-bottom: 35px;
 }
 
-select.form-item:nth-of-type(odd) {
+.form__item:nth-of-type(odd) {
     margin-right: 30px;
 }
 
@@ -151,6 +157,7 @@ select.form-item:nth-of-type(odd) {
     background-color: #FB8F1D;
     color: #FFFFFF;
     transition: all .5s;
+    margin-top: 12px;
 }
 
 .btn__explore:hover {
@@ -159,9 +166,9 @@ select.form-item:nth-of-type(odd) {
     border: 1px solid #FB8F1D;
 }
 
-.form-img {
+.form__img {
     width: 687px;
-    height: 654px; 
+    height: 654px;  
 }
 
 
