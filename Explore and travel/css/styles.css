@@ -70,7 +70,9 @@ a {
     height: 44px;
     border-radius: 8px;
     font: 500 0.9rem 'Inter';
-    padding: 12px 46px;
+    padding: 12px 0;
+    text-align: center;
+    cursor: pointer;
 }
 
 .button__login {
