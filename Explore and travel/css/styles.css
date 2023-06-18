@@ -174,38 +174,39 @@ fieldset, legend {
 
 /* Explore article styles */
 
-.article-explore {
-    margin: 0 0 262px 141px;
+.explore__inner {
     display: flex;
-    gap: 102px;
     align-items: center;
+    justify-content: space-between;
 }
 
-.explore-image {
+.explore__image {
     width: 659px;
     height: 534px;
 }
 
-.section-title {
+.content {
+    max-width: 450px;
+}
+
+.content__title {
     font: 700 2rem/3.1rem 'Playfair Display';
-    display: inline-block;
-    width: 481px;
+    color: #000000;
+    margin-bottom: 20px;
 }
 
-.section-text {
-    font: 300 1.0625rem/1.875rem 'Mulish';
-    color: #7D7987;
-    width: 450px;
+.content__text {
+    margin-bottom: 33px;
 }
 
-.btn-learn-more  {
+.btn__learn-more  {
+    background: #FB8F1D;
+    color: #FFFFFF;
     width: 164px;
-    height: 48px;
-    font: 600 1rem 'Inter';
-    margin-top: 33px;
+    padding: 13px 38px;
 }
 
-.btn-learn-more:hover {
+.btn__learn-more:hover {
     border: 1px solid #FB8F1D;
     background:#ffffff;
     color:#FB8F1D;
