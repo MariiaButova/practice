@@ -216,46 +216,43 @@ fieldset, legend {
                                                        
 /* destination section styles */
 
-.destinations {
-    margin: 0 0 173px 240px;
+.destinations__content-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 46px;
 }
 
 .view-all {
     color:#FB8F1D;
     font: 600 1.0625rem/3.75rem 'Inter';
-    margin-left: 560px;
-}
-
-.arrow-right {
-    margin-left: 11px;
-}
-
-.view-all:hover {
-    text-decoration: 2px underline;
+    display: flex;
+    align-items: center;
+    gap: 11px;
 }
 
 /* figures styles */
 
-figure {
-    margin: 0;
-}
-
-.destination-examples {
+.destinations__content-bottom {
     display: flex;
-    gap: 25px;
+    justify-content: space-between;
 }
 
-.destination {
+.destination__item {
     position: relative;
+    transition: all .5s;
 }
 
-.destination-img {
+.destination__item:hover {
+    transform: scale(1.10);
+}
+
+.destination__img {
     width: 261px;
-    height: 332px;
+    height: 337px;
     border-radius: 8px;
 }
 
-.destination-name {
+.destination__name {
     width: 120px;
     height: 56px;
     background: #FFFFFF;
@@ -264,9 +261,10 @@ figure {
     bottom: 0px;
     left: 0px;
     font: 600 1.0625rem/25px 'Inter';
+    color:#042521;
 }
 
-.destination-name-country {
+.destination__name-country {
     font-weight: 500;
     color: #80918E;
 }
