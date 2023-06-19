@@ -216,6 +216,10 @@ fieldset, legend {
                                                        
 /* destination section styles */
 
+.destinations {
+    margin-bottom: 237px;
+}
+
 .destinations__content-top {
     display: flex;
     justify-content: space-between;
@@ -270,42 +274,39 @@ fieldset, legend {
 }
 
 
-/* Article guides styles */ 
+/*Guides section styles */ 
 
-.guides {
-    margin: 0 0 248px 240px;
+.guides__inner {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 80px;
 }
 
-section.article-content .section-title  {
-    width: 400px;
+.guides__content-title {
+    max-width: 350px;
 }
 
-.btn-download {
+.button__download {
     width: 164px;
     height: 48px;
     font: 600 1rem 'Inter';
-    margin-top: 40px;
+    padding: 10px 43px;
+    background: #FB8F1D;
+    color:#ffffff;
 }
 
-.btn-download:hover {
+.button__download:hover {
     border: 1px solid #FB8F1D;
     background:#ffffff;
     color:#FB8F1D;
 }
 
-.guide-img {
+.guide__img {
     width: 599px;
     height: 542px; 
 }
 
 /* Section testimonials styles */
-
-.testimonial {
-    margin: 0 0 213px 240px;
-}
 
 .section-title {
     margin-bottom: 60px;
