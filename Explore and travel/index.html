@@ -102,7 +102,7 @@
             <div class="destinations__content-bottom">
                 <figure class="destination__item">
                     <img class="destination__img" src="img/raja-ampet.png" alt="Raja Ampat">
-                    <figcaption class="destination__name">Raja Ampat<span class="destination__name-country">Indonesia</span></figcaption>
+                    <figcaption class="destination__name">Raja Ampat <span class="destination__name-country">Indonesia</span></figcaption>
                 </figure>
                 <figure class="destination__item">
                     <img class="destination__img" src="img/china.png" alt="Fanjingshan China">
@@ -120,18 +120,21 @@
         </div>
     </section>
     <!-- Article guides -->
-    <article class="guides">
-        <section class="article-content">
-        <h3 class="section-title">Guides by Thousand Sunny</h3>
-        <p class="section-text">Packed with tips and advice from our on-the-ground experts, our city guides app (iOS and Android) is the ultimate resource before and during a trip.</p>
-        <button onclick="myFunction()" class="btn-download btn-orange">Download</button>
-        </section>
-        <figure>
-            <img src="img/guide-img.png" alt="man with telephone" class="guide-img"> 
-        </figure>
-    </article>
+    <section class="guides">
+        <div class="container">
+            <div class="guides__inner">
+                <div class="content">
+                    <h3 class="content__title guides__content-title">Guides by Thousand Sunny</h3>
+                    <p class="content__text">Packed with tips and advice from our on-the-ground experts, our city guides app (iOS and Android) is the ultimate resource before and during a trip.</p>
+                    <a class="button button__download">Download</a>
+                </div>
+                <img class="guide__img" src="img/guide-img.png" alt="man with telephone">
+            </div> 
+        </div>
+    </section>
     <!-- Section testimonials-->
-    <article class="testimonial">
+    <section class="testimonial">
+        <div class="container">
         <h3 class="section-title">Testimonials</h3>
         <section class="section-content">
             <div class="section-content-text">
@@ -156,7 +159,8 @@
                 </div>
             </div>
         </section>
-    </article>
+    </div>
+    </section>
     <!-- Section trending stories -->
     <section class="trending-stories">
         <h3 class="section-title">Trending stories</h3>
@@ -244,11 +248,21 @@
     <hr class="footer-line">
     <!--  Socials -->
     <section class="socials">
-        <a href="#"><i class="fa-brands fa-twitter fa-xl"></i></a>
-        <a href="#"><i class="fa-brands fa-facebook-f fa-xl"></i></a>
-        <a href="#"><i class="fa-brands fa-instagram fa-xl"></i></a>
-        <a href="#"><i class="fa-brands fa-linkedin-in fa-xl"></i></a>
-        <a href="#"><i class="fa-brands fa-youtube fa-xl"></i></a>
+        <a class="social__link" href="#">
+            <img class="social__icon" src="img/twitter__icon.svg" alt="twitter icon">
+        </a>
+        <a class="social__link" href="#">
+            <img class="social__icon" src="img/facebook__icon.svg" alt="facebook icon">
+        </a>
+        <a class="social__link" href="#">
+            <img class="social__icon" src="img/instagram__icon.svg" alt="instagram icon">
+        </a>
+        <a class="social__link" href="#">
+            <img class="social__icon" src="img/linkedin__icon.svg" alt="linkedin icon">
+        </a>
+        <a class="social__link" href="#">
+            <img class="social__icon" src="img/youtube__icon.svg" alt="youtube icon">
+        </a>
     </section>
    </footer>
 </div>
