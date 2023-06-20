@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <title>Explore and travel</title>
 </head>
@@ -135,31 +136,67 @@
     <!-- Section testimonials-->
     <section class="testimonial">
         <div class="container">
-        <h3 class="section-title">Testimonials</h3>
-        <section class="section-content">
-            <div class="section-content-text">
-                <figure class="stars">
-                    <img src="img/star.jpg" alt="star">
-                    <img src="img/star.jpg" alt="star">
-                    <img src="img/star.jpg" alt="star">
-                    <img src="img/star.jpg" alt="star">
-                    <img src="img/star.jpg" alt="star">
-                </figure>
-                <p class="comment">&#8220;Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec&#8221;</p>
-                <p class="commentator">Edward Newgate</p>
-                <p class="commentator-work">Founder Circle</p>
+            <div class="content">
+                <h3 class="content__title">Testimonials</h3>
             </div>
-            <div class="section-content-photo">
-                <figure>
-                    <img src="img/man.png" alt="man" class="photo-man">
-                </figure>
-                <div class="switch-arrows">
-                    <div class="switch-arrow-left"><i class="fa-sharp fa-solid fa-angle-left"></i></div>
-                    <div class="switch-arrow-right"><i class="fa-sharp fa-solid fa-angle-right"></i></div>
+            <div class="slider">
+                <div class="slider__item">
+                    <div class="slider__item-content">
+                        <div class="slider__item-stars">
+                            <img class="star" src="img/star.svg" alt="star">
+                            <img class="star" src="img/star.svg" alt="star">
+                            <img class="star" src="img/star.svg" alt="star">
+                            <img class="star" src="img/star.svg" alt="star">
+                            <img class="star" src="img/star.svg" alt="star">
+                        </div>
+                        <p class="slider__item-text"t>&#8220;Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec&#8221;</p>
+                        <p class="slider__item-name">Edward Newgate</p>
+                        <p class="slider__item-work">Founder Circle</p>
+                    </div>
+                    <div class="slider__item-photo">
+                        <img class="slider__item-img" src="img/man.png" alt="man" class="photo-man">
+                        <!--<div class="switch-arrows">
+                            <div class="switch-arrow-left"><i class="fa-sharp fa-solid fa-angle-left"></i></div>
+                            <div class="switch-arrow-right"><i class="fa-sharp fa-solid fa-angle-right"></i></div>
+                        </div>-->
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__item-content">
+                        <div class="slider__item-stars">
+                            <img class="star" src="img/star.svg" alt="star">
+                            <img class="star" src="img/star.svg" alt="star">
+                            <img class="star" src="img/star.svg" alt="star">
+                            <img class="star" src="img/star.svg" alt="star">
+                            <img class="star" src="img/star.svg" alt="star">
+                        </div>
+                        <p class="slider__item-text"t>&#8220;Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec&#8221;</p>
+                        <p class="slider__item-name">Edward Newgate</p>
+                        <p class="slider__item-work">Founder Circle</p>
+                    </div>
+                    <div class="slider__item-photo">
+                        <img class="slider__item-img" src="img/man.png" alt="man" class="photo-man">
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__item-content">
+                        <div class="slider__item-stars">
+                            <img class="star" src="img/star.svg" alt="star">
+                            <img class="star" src="img/star.svg" alt="star">
+                            <img class="star" src="img/star.svg" alt="star">
+                            <img class="star" src="img/star.svg" alt="star">
+                            <img class="star" src="img/star.svg" alt="star">
+                        </div>
+                        <p class="slider__item-text"t>&#8220;Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec&#8221;</p>
+                        <p class="slider__item-name">Edward Newgate</p>
+                        <p class="slider__item-work">Founder Circle</p>
+                    </div>
+                    <div class="slider__item-photo">
+                        <img class="slider__item-img" src="img/man.png" alt="man" class="photo-man">
+                    </div>
                 </div>
             </div>
-        </section>
-    </div>
+        </div>
     </section>
     <!-- Section trending stories -->
     <section class="trending-stories">
@@ -266,5 +303,9 @@
     </section>
    </footer>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script                                                 src="js/main.js"></script>
 </body>
 </html>
