@@ -312,38 +312,38 @@ fieldset, legend {
     margin-bottom: 60px;
 }
 
-.section-content {
+.slider__item {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 170px;
 }
 
-.stars {
+.slider__item-stars {
    margin-bottom: 30px; 
 }
 
-.comment {
+.slider__item-text {
+    max-width: 450px;
+    color:#000000;
     font: 400 1.5rem/2.25rem 'Mulish';
-    width: 450px;
     margin-bottom: 40px;
 }
 
-.commentator {
+.slider__item-name {
     font: 700 1.375rem 'Inter';
-    margin-bottom: 0;
+    margin-bottom: 5px;
+    color: #000000;
 }
 
-.commentator-work {
+.slider__item-work {
     font: 400 1.125rem 'Inter';
-    color: rgba(0, 0, 0, 0.85);
-    margin-top: 5px;
 }
 
-.section-content-photo {
+.slider__item-photo {
     position: relative;
 }
 
-.photo-man {
+.slider__item-img {
     width: 384px;
     height: 491px;
     border-radius: 14px;
