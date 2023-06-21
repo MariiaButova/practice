@@ -220,7 +220,7 @@ fieldset, legend {
     margin-bottom: 237px;
 }
 
-.destinations__content-top {
+.content-top {
     display: flex;
     justify-content: space-between;
     margin-bottom: 46px;
@@ -236,7 +236,7 @@ fieldset, legend {
 
 /* figures styles */
 
-.destinations__content-bottom {
+.content-bottom {
     display: flex;
     justify-content: space-between;
 }
@@ -244,6 +244,7 @@ fieldset, legend {
 .destination__item {
     position: relative;
     transition: all .5s;
+    cursor: pointer;
 }
 
 .destination__item:hover {
@@ -308,6 +309,10 @@ fieldset, legend {
 
 /* Section testimonials styles */
 
+.testimonial {
+    margin-bottom: 250px;
+}
+
 .section-title {
     margin-bottom: 60px;
 }
@@ -337,10 +342,6 @@ fieldset, legend {
 
 .slider__item-work {
     font: 400 1.125rem 'Inter';
-}
-
-.slider__item-photo {
-    position: relative;
 }
 
 .slider__item-img {
@@ -381,23 +382,23 @@ fieldset, legend {
     border: 2px solid #000000;
 }
 
-
 /* Section trending stories styles */ 
 
 .trending-stories {
-    margin: 0 0 271px 240px;
+    margin-bottom: 271px;
 }
 
 .story {
-    display: inline-block;
-    width: 266px;
+    max-width: 261px;
+    transition: all .5s;
+    cursor: pointer;
 }
 
-article.story:not(:last-of-type) {
-    margin-right: 20px;
+.story:hover {
+    transform: scale(1.10);
 }
 
-.story-photo {
+.story__img {
     width: 261px;
     height: 231px;
     border-radius: 8px 8px 0 0;
@@ -405,22 +406,27 @@ article.story:not(:last-of-type) {
     object-position: top center;
 }
 
-.title-story {
+.story__title {
     font: 700 1.1875rem/1.875rem 'Inter';
     margin: 13px 0;
+    color: #000;
 }
 
-.story-content {
+.story__title-healing {
+    max-width: 219px;
+}
+
+.story__content {
     font: 400 0.9375rem/1.625rem 'Inter';
-    color: #7D7987;;
+    margin-bottom: 23px;
 }
 
-.read-more {
+.story__link {
     font: 600 0.9375rem/1.75rem 'Inter';
     color: #FB8F1D;
 }
 
-.read-more:hover {
+.story__link:hover {
     text-decoration: 2px underline;
 }
 
