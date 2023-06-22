@@ -432,45 +432,32 @@ fieldset, legend {
 
 /* footer styles */
 
-footer {
+.footer {
     background: #F9F9FB;
 }
 
-.short-inform {
+.footer__content {
     display: flex;
+    justify-content: space-between;
+    
 }
+
 /* section inform styles */ 
 
-section.inform {
-    margin: 65px 108px 0 219px;
-    width: 336px;
-    font: 300 1.125rem/2rem "Mulish";
+.footer__content-info {
+    max-width: 336px;
     color: #848484;
 }
+
+
 
 
 /* footer menu styles */ 
 
-.footer-menu {
-    margin: 57px 0 77px 0;
-    display: flex;
-}
 
-ul.footer-menu-list {
-    list-style-type: none;
-}
-
-ul.footer-menu-list:first-of-type {
-    margin-right: 156px;
-}
-
-ul.footer-menu-list:last-of-type {
-    margin-left: 130px;
-}
-
-.footer-menu-item a {
+.footer__menu-link {
     color: #848484;
-    font: 300 1.125rem/2.375rem 'Mulish';
+    transition: all .5s;
 }
 
 .title-item a {
@@ -478,7 +465,7 @@ ul.footer-menu-list:last-of-type {
     color: #000000; 
 }
 
-.footer-menu-item a:hover {
+.footer__menu-link:hover {
     text-decoration: 2px underline;
 }
 
