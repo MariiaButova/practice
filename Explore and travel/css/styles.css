@@ -153,8 +153,6 @@ fieldset, legend {
     margin-right: 30px;
 }
 
-/* Form button styles */
-
 .btn__explore {
     width: 180px;
     height: 52px;
@@ -177,8 +175,7 @@ fieldset, legend {
     height: 654px;  
 }
 
-
-/* Explore article styles */
+/* Explore section styles */
 
 .explore {
     margin-bottom: 253px;
@@ -222,7 +219,7 @@ fieldset, legend {
     color:#FB8F1D;
 }
                                                        
-/* destination section styles */
+/* Destination section styles */
 
 .destinations {
     margin-bottom: 237px;
@@ -241,8 +238,6 @@ fieldset, legend {
     align-items: center;
     gap: 11px;
 }
-
-/* figures styles */
 
 .content-bottom {
     display: flex;
@@ -319,7 +314,7 @@ fieldset, legend {
     height: 542px; 
 }
 
-/* Section testimonials styles */
+/* Testimonials section styles */
 
 .testimonial {
     margin-bottom: 250px;
@@ -442,7 +437,7 @@ fieldset, legend {
     text-decoration: 2px underline;
 }
 
-/* footer styles */
+/* Footer styles */
 
 .footer {
     background: #F9F9FB;
@@ -454,21 +449,16 @@ fieldset, legend {
     
 }
 
-/* section inform styles */ 
-
 .footer__content-info {
     max-width: 336px;
     color: #848484;
 }
 
-
-
-
-/* footer menu styles */ 
+/* Footer menu styles */ 
 
 .footer__content {
     border-bottom: 0.6px solid #C4C4C4;
-    padding-bottom: 77px;
+    padding: 78px 0 77px;
 }
 
 .footer__menu-link {
@@ -485,7 +475,7 @@ fieldset, legend {
     text-decoration: 2px underline;
 }
 
-/* section socials styles */ 
+/* Socials section styles */ 
 
 .social__inner {
     display: flex;
