@@ -454,6 +454,10 @@ fieldset, legend {
 
 /* footer menu styles */ 
 
+.footer__content {
+    border-bottom: 0.6px solid #C4C4C4;
+    padding-bottom: 77px;
+}
 
 .footer__menu-link {
     color: #848484;
@@ -469,24 +473,12 @@ fieldset, legend {
     text-decoration: 2px underline;
 }
 
-.footer-line {
-    margin: 0 90px 30px 219px;
-    background-color: #C4C4C4;
-    border: none;
-    height:  0.6px;
-}
-
 /* section socials styles */ 
 
-.socials {
-    margin: 0 auto 30px;
-    width: 248.01px;
+.social__inner {
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-}
-
-.socials a {
-    color: #000000;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
 }
 
