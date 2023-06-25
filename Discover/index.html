@@ -31,102 +31,115 @@
                 <input class="search" type="search" placeholder="Search">
             </section>
             <!--header-content-->
-            <div class="header-content">
+            <section class="header-content">
                 <!--aside-->
                 <aside class="social">
                     <p class="social__text">Follow us</p>
                     <ul class="social__list">
                         <li class="social__list-item">
                             <a href="#" class="sosial__list-link">
-                                <img src="" alt="instagram_icon" class="social__list-icon">
+                                <img src="image/instagram_icon.svg" alt="instagram_icon" class="social__list-icon">
                             </a>
                         </li>
                         <li class="social__list-item">
                             <a href="#" class="sosial__list-link">
-                                <img src="" alt="twitter_icon" class="social__list-icon">
+                                <img src="image/twitter_icon.svg" alt="twitter_icon" class="social__list-icon">
                             </a>
                         </li>
                         <li class="social__list-item">
                             <a href="#" class="sosial__list-link">
-                                <img src="" alt="facebook_icon" class="social__list-icon">
+                                <img src="image/facebook_icon.svg" alt="facebook_icon" class="social__list-icon">
                             </a>
                         </li>
                     </ul>
                 </aside>
                 <!--content-->
                 <section class="content">
-                    <div class="comment">
-                        <img src='image/line.png' class="comment-line">
-                        <p>explore the Nature Beauty</p>
-                    </div>
-                    <h1><span class="title">Discover</span><br>Wonderful Indonesia</h1>
+                    <p class="subtitle">Explore the Nature Beauty</p>
+                    <h1 class="title">Discover<span>Wonderful Indonesia</span></h1>
                     <div class="scroll_down">
-                    <p>Scroll down</p><img src="image/arrow_downward.png" alt="arrow" class="arrow">
-                </div>
+                        <p>Scroll down</p>
+                        <img src="image/arrow_downward.svg" alt="arrow" class="arrow">
+                    </div>
                 </section>
-            </div>
-            <div class="background-bottom"></div>
+            </section>
         </header>
         <!--main-->
         <main>
             <!--komodo_tour-->
-            <article class="komodo-tour">
-                <img src="image/komodo-tour-image.png" alt="montain" class="komodo-tour-image">
-                <!--komodo-content-->
-                <section class="komodo-tour-content">
-                <div class="comment">
-                    <img src='image/line.png' class="comment-line">
-                    <p>EAST NUSA TENGGARA</p>
-                </div>
-                <!--description-->
-                <div class="desctiption">
-                <h2>Have you enjoyed your holiday?</h2>
-                <p>You will be amazed if you take part in this sailing Komodo island tour package. So it is also mandatory for you, besides enjoying Komodo tourism on Komodo Island, you also have to taste the marine tourism.  The beautiful waters of Komodo will make you meet many travelers from other countries.</p>
-            </div>
-            <!--read-more-->
-            <a href="#" class="more">
-                <p>read more</p>
-                <img src="image/arrow_sideward.png" alt="sidearoow" class="side_aroow"></a>
-            </section>
-            </article>
-            <article class="bromo">
-                <div class="arrow-slide">
-                    <img src="image/arrow_left.png" alt="arrow-left">
-                    <img src="image/arrow-right.png" alt="arrow-right">
-                </div>
-                <section class="bromo-content">
-                <div class="comment">
-                    <img src='image/line.png' class="comment-line">
-                    <p>Bromo</p>
-                    <img src='image/line.png' class="comment-line">
-                </div>
-                <div class="bromo-description">
-                <h2>Steady your steps, <br>we will climb together!</h2>
-                <p>Enjoying the vast expanse of the sea of ​​​​sand, witnessing the splendor of Mount Semeru that soars into the sky, <br>and gazing at the beauty of the sun moving out of its bed or otherwise enjoying the dim twilight from<br> the Bromo ridge is an unforgettable experience when visiting Bromo.</p>
-            </div>
-                <a href="#" class="more">
-                    <p>read more</p>
-                    <img src="image/arrow_sideward.png" alt="sidearoow" class="side_aroow">
-                </a>
-            </section>
-            </article>
-            <article class="culture">
-                <section class="culture-content">
-                    <div class="comment">
-                        <img src='image/line.png' class="comment-line">
-                        <p>INDONESIAN CULTURE</p>
+            <section class="komodo-tour">
+                <div class="container">
+                    <div class="komodo-tour__inner">
+                        <img class="komodo-tour__img" src="image/komodo-tour-image.png" alt="montain">
+                        <div class="content komodo-tour__content">
+                            <p class="content__subtitle">EAST NUSA TENGGARA</p>
+                            <h2 class="content__title komodo-tour__title">Have you enjoyed your holiday?</h2>
+                            <p class="content__text komodo-tour__text">You will be amazed if you take part in this sailing Komodo island tour package. So it is also mandatory for you, besides enjoying Komodo tourism on Komodo Island, you also have to taste the marine tourism.  The beautiful waters of Komodo will make you meet many travelers from other countries.</p>
+                        </div>
+                        <a class="content__link" href="#">
+                            <p class="content__link-text">read more</p>
+                            <img class="content__link-arrow" src="image/arrow_sideward.svg" alt="sidearoow">
+                        </a>
                     </div>
-                    <div class="desctiption">
-                        <h2>Our culture here is very friendly to people</h2>
-                        <p>known for his politeness, manners and gentleness. This becomes a characteristic when they mingle with other tribes and become basic traits that are passed down by their ancestors.</p>
+                </div>
+            </section>
+            <!-- Bromo -->
+            <section class="bromo">
+                <div class="conainer">
+                    <div class="slider">
+                        <div class="slider__item">
+                            <div class="content">
+                                <p class="content__subtitle content__subtitle-bromo">Bromo</p>
+                                <h2 class="content__title content__title-bromo">Steady your steps, we will climb together!</h2>
+                                <p class="content__text content__text-bromo">Enjoying the vast expanse of the sea of ​​​​sand, witnessing the splendor of Mount Semeru that soars into the sky, and gazing at the beauty of the sun moving out of its bed or otherwise enjoying the dim twilight from the Bromo ridge is an unforgettable experience when visiting Bromo.</p>
+                                <a class="content__link content__link-bromo" href="#">
+                                    <p class="content__link-text">read more</p>
+                                    <img class="content__link-arrow" src="image/arrow_sideward.svg" alt="sidearoow" class="side_aroow">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="content">
+                                <p class="content__subtitle content__subtitle-bromo">Bromo</p>
+                                <h2 class="content__title content__title-bromo">Steady your steps, we will climb together!</h2>
+                                <p class="content__text content__text-bromo">Enjoying the vast expanse of the sea of ​​​​sand, witnessing the splendor of Mount Semeru that soars into the sky, and gazing at the beauty of the sun moving out of its bed or otherwise enjoying the dim twilight from the Bromo ridge is an unforgettable experience when visiting Bromo.</p>
+                                <a class="content__link content__link-bromo" href="#">
+                                    <p class="content__link-text">read more</p>
+                                    <img class="content__link-arrow" src="image/arrow_sideward.svg" alt="sidearoow" class="side_aroow">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="content">
+                                <p class="content__subtitle content__subtitle-bromo">Bromo</p>
+                                <h2 class="content__title content__title-bromo">Steady your steps, we will climb together!</h2>
+                                <p class="content__text content__text-bromo">Enjoying the vast expanse of the sea of ​​​​sand, witnessing the splendor of Mount Semeru that soars into the sky, and gazing at the beauty of the sun moving out of its bed or otherwise enjoying the dim twilight from the Bromo ridge is an unforgettable experience when visiting Bromo.</p>
+                                <a class="content__link content__link-bromo" href="#">
+                                    <p class="content__link-text">read more</p>
+                                    <img class="content__link-arrow" src="image/arrow_sideward.svg" alt="sidearoow" class="side_aroow">
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <!--read-more-->
-                    <a href="#" class="more">
-                        <p>read more</p>
-                        <img src="image/arrow_sideward.png" alt="sidearoow" class="side_aroow"></a>
-                    </section>
-                    <img src="image/girls.png" alt="girls" class="culture-img">
-            </article>
+                </div>
+            </section>
+            <!-- Culture -->
+            <section class="culture">
+                <div class="conatiner">
+                    <div class="colture__inner">
+                        <div class="content">
+                            <p class="content__subtitle">INDONESIAN CULTURE</p>
+                            <h2 class="content__title">Our culture here is very friendly to people</h2>
+                            <p class="content__text">known for his politeness, manners and gentleness. This becomes a characteristic when they mingle with other tribes and become basic traits that are passed down by their ancestors.</p>
+                            <a class="content__link" href="#">
+                                <p class="content__link-text">read more</p>
+                                <img class="content__link-arrow" src="image/arrow_sideward.svg" alt="sidearoow" class="side_aroow">
+                            </a>
+                        </div>
+                        <img class="content__img" src="image/girls.png" alt="girls">
+                    </div>
+                </div>
+            </section>
         </main>
         <footer>
             <article class="more-informetion">
