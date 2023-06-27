@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap');
-
 *,
 *::after,
 *::before {
@@ -7,8 +5,12 @@
 }
 
 body {
-    font-family: 'DM Sans', sans-serif;
+    /*font-family: 'DM Sans', sans-serif;*/
     font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
 }
 
 /*header styles*/
@@ -16,7 +18,7 @@ body {
 .header {
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(330.24deg, rgba(0, 0, 0, 0) 31.06%, #000000 108.93% ), url('../image/Background.png');
+    background-image: linear-gradient(330.24deg, rgba(0, 0, 0, 0) 31.06%, #000000 108.93% ),linear-gradient(360deg, #000000 14.99%, rgba(0, 0, 0, 0) 77.78%), url('../image/Background.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -37,24 +39,23 @@ body {
     font-size: 24px;
     line-height: 33px;  
     letter-spacing: 0.01em;
-    color: #FFFFFF;
-    font-family: 'Open Sans';
+    color: #FFFFFF; 
 }
 
 .menu__list {
    display: flex;
    gap: 50px;
+   align-items: center;
 }
 
-nav a {
-    font-size: 18px;
+.menu__list-link {
     line-height: 25px;
     color: #FFFFFF;  
 }
 
 /*inpur-search-styles*/
 
-input[type*='search'] {
+.search-link {
     border: none;
     height: 23px;
     background-color: rgba(240, 243, 244, 0);
@@ -64,7 +65,7 @@ input[type*='search'] {
     opacity: 0.6;
 }
 
-input[type*='search']::placeholder {
+.search-link::placeholder {
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 17px;
@@ -73,7 +74,7 @@ input[type*='search']::placeholder {
     padding-left: 34px;
 }
 
-input[type*='search']:focus {
+.search-link:focus {
     background-color: rgba(240, 243, 244, 0);
     border: none;
     border-bottom: 1px solid #FFFFFF;
@@ -82,15 +83,15 @@ input[type*='search']:focus {
     color: #FFFFFF;
 }
 
-input[type*='search']:focus::placeholder {
+.search-link:focus::placeholder {
     color: rgba(240, 243, 244, 0);
 }
 
 /*header-content styles*/
 
-.header-content {
+.header__content {
     display: flex;
-    
+    align-items: center;
 }
 
 /*aside styles*/
@@ -99,85 +100,51 @@ input[type*='search']:focus::placeholder {
     display: flex;
     flex-direction: column;
     gap: 22px;
-    margin-top: 60px;
 }
 
-.solial_icon {
-    width: 24px;
-    height: 24px;
-}
-
-.social p {
-    color:#FFFFFF;
-    font-family: 'Open Sans';
-    font-weight: 600;
-    font-size: 18px;
+.social__text {
     line-height: 25px;
     writing-mode: vertical-lr;
 }
 
-/*content styles*/
-
-.comment {
-    display: flex;
-    gap: 32px;
-    align-items: center;
-    margin-bottom: 32px;
+.content {
+    margin: 0 auto;
 }
 
-.comment p {
-    font-family: 'Open Sans';
+/*content styles*/
+
+.subtitle {
     font-weight: 700;
-    font-size: 18px;
     line-height: 25px;
     letter-spacing: 6px;
     text-transform: uppercase;
     color: #FFC178;
+    margin-bottom: 32px;
 }
 
-.comment-line {
-    width: 72px;
-    height: 2px;
-}
-
-h1 {
-    font-family: 'Open Sans';
+.title {
     font-weight: 700;
     font-size: 96px;
     line-height: 100px;
     text-transform: capitalize;
-    color: #FFFFFF;
-    font-weight: normal;
-    width: 950px;
-    height: 204px;
-    margin-bottom: 125px;
+    font-weight: bold;
+    max-width: 950px;
+
+    margin-bottom: 10px;
 }
 
-.title {
-    font-weight: bold;
+.title__name {
+    font-weight: normal;
+    margin-bottom: 115px;
 }
+
 
 /*scroll down styles*/
 
-.scroll_down {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.scroll_down p {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
+.scroll-down__text {
+    text-align: center;
     line-height: 25px;
-    color: #FFFFFF;
     margin-right: 10px;
-}
-
-.arrow {
-    width:16px;
-    height: 24px;
 }
 
 .background-bottom {
@@ -188,7 +155,7 @@ h1 {
 
 /*main styles*/
 
-main {
+.main {
     background-color: black;
 }
 
@@ -438,7 +405,6 @@ li {
     font-weight: 400;
     font-size: 19px;
     color: #FFFFFF;
-    margin-bottom: 25px;
    
 }
 
