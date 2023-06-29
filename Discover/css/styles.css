@@ -282,6 +282,10 @@ body {
 
 /* culture section styles */ 
 
+.culture {
+    padding-bottom: 250px;
+}
+
 .culture__inner {
     display: flex;
     justify-content: space-between;
@@ -302,44 +306,26 @@ body {
     font-weight: 400;
 }
 
-
-
 /* footer section styles */
 
-footer {
+.footer {
     background-color: black;
-    overflow: hidden;
 }
 
-.more-informetion {
-    margin: 250px auto 0px;
-    width: 1460px;
-    height: 748px;
-    
-}
-
-.get-started {
+.footer__top {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 47px;
 }
 
-.get-action {
+.footer__top-content {
     display: flex;
     align-items: center;
     gap: 55px;
 }
 
-.get-action p {
-    font-family: 'DM Sans';
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 29px;
-    letter-spacing: -0.3px;
-    color: #FFFFFF;
-}
-
-.button-get-started {
+.button {
     background: #FFA343;
     border-radius: 8px;
     font-family: 'DM Sans';
@@ -350,30 +336,21 @@ footer {
     padding: 24px 70px;
 }
 
-hr {
-    background: #FFFFFF;
-    mix-blend-mode: normal;
-    opacity: 0.3;
-    margin: 55px 0px; 
-}
-
-.footer-navigation {
+.footer__navigation {
     display: flex;
     align-items: center;
+    gap: 252px;
+    border-top: 1px solid rgba(255, 255, 255, .3); 
+    padding: 55px 0 130px;  
 }
 
-.newsletter  {
-    margin-right: 252px;
-}
-
-.newsletter h3 {
-    font-family: 'Open Sans';
+.footer__navigation-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 49px;
     letter-spacing: -0.3px;
-    color: #FFFFFF;
     margin-bottom: 50px;
+    max-width: 361px;
 }
 
 input[type*='email']{
@@ -417,29 +394,23 @@ input[type*='search']:focus::placeholder {
     color: rgba(240, 243, 244, 0);
 }
 
-form {
+.form {
     display: flex;
     align-items: center;
 }
 
-.nav {
-   color: white;
-   display: flex;
-   gap: 100px;
+.footer__menu {
+    display: flex;
+    gap: 184px;
 }
 
-li {
-    font-family: 'Open Sans';
-    font-weight: 400;
-    font-size: 19px;
-    color: #FFFFFF;
-   
+.footer__menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
-.title-list {
-    font-weight: 700;
-    font-size: 20px;
-    color: #FFD1A0;
+.fotter__menu-link {
+    color:#FFF;
 }
-
 
