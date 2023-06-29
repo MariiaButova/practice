@@ -280,24 +280,31 @@ body {
     margin-bottom: 29px;
 }
 
-.culture {
-    width: 1463px;
-    height: 720px;
-    margin: 0px auto;
+/* culture section styles */ 
+
+.culture__inner {
     display: flex;
-    gap: 210px;
+    justify-content: space-between;
     align-items: center;
 }
 
-.culture-content {
-    width: 632px;
-    height: 488px;
-}
-
-.culture-img {
+.content__img {
     width: 578px;
     height: 720px;
 }
+
+.content__title-culture {
+    max-width: 555px;
+}
+
+.content__text-culture {
+    max-width: 632px;
+    font-weight: 400;
+}
+
+
+
+/* footer section styles */
 
 footer {
     background-color: black;
